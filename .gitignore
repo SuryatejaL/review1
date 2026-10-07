@@ -1,0 +1,8 @@
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.vscode/
+**/target/
+*.log

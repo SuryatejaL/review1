@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="browser-window">
+      <div class="browser-toolbar">
+        <div class="browser-actions">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="browser-tabs">
+          <div class="tab active">
+            <span class="tab-icon">◊</span>
+            Online C Compiler (Editor)
+            <span class="tab-close">×</span>
+          </div>
+          <div class="tab">
+            <span class="tab-icon">◌</span>
+            academics.klef.in/klef
+          </div>
+          <div class="tab">
+            <span class="tab-icon">◌</span>
+            Internal Review Requirements
+          </div>
+          <div class="tab">
+            <span class="tab-icon">◌</span>
+            Two Sum - LeetCode
+          </div>
+        </div>
+        <div class="toolbar-user">⚡</div>
+      </div>
+
+      <header class="page-header">
+        <div class="school-name">Koneru Lakshmaiah Education Foundation</div>
+        <div class="user-meta">
+          <span class="user-name">LANKALAPALLI SURYA TEJA</span>
+          <button type="button">Logout</button>
+        </div>
+      </header>
+
+      <div class="app-layout">
+        <aside class="sidebar">
+          <div class="sidebar-head">MENU</div>
+          <nav class="nav-list" aria-label="Sidebar navigation">
+            <button class="nav-item">Academics</button>
+            <button class="nav-item">View Courses Catalog</button>
+            <button class="nav-item">Program Handbook</button>
+            <button class="nav-item">Course Handbook</button>
+            <button class="nav-item">Numerous Challenges</button>
+            <button class="nav-item">Registration</button>
+            <button class="nav-item">Coding Profile Info</button>
+            <button class="nav-item">Skill Development Project</button>
+            <button class="nav-item">Registration</button>
+            <button class="nav-item active">My Events</button>
+            <button class="nav-item">Social Immersive Learning</button>
+            <button class="nav-item">User Profile</button>
+            <button class="nav-item">My Profile</button>
+          </nav>
+        </aside>
+
+        <main class="main-panel">
+          <div class="panel-title">My Events</div>
+
+          <div class="event-card">
+            <div class="event-card-header">
+              <span class="course-year">Academics Year</span>
+              <span class="course-detail">2023-2024</span>
+              <span class="course-separator">-</span>
+              <span class="course-detail">Semester: Odd Semester</span>
+              <div class="search-pill"><span>🔍</span></div>
+            </div>
+
+            <div class="event-banner">24SDCS03R · SOA PROGRAMMING AND MICROSERVICES</div>
+
+            <div class="problem-box">
+              <div class="problem-header">
+                <span class="red-label">PROBLEM STATEMENT / USECASE</span>
+                <button type="button" class="back-btn">← BACK</button>
+              </div>
+
+              <div class="meta-grid">
+                <div class="meta-row"><span>Use Case Title</span><strong>PS034 - SOA PROGRAMMING AND MICROSERVICES</strong></div>
+                <div class="meta-row"><span>Course Name</span><strong>24SDCS03R · SOA PROGRAMMING AND MICROSERVICES</strong></div>
+                <div class="meta-row"><span>Course Code</span><strong>24SDCS03R · SOA PROGRAMMING AND MICROSERVICES</strong></div>
+              </div>
+
+              <h2>PS034 : Multi-Restaurant Food Ordering &amp; Delivery Orchestration Engine</h2>
+
+              <div class="description">
+                <p>
+                  The company CraveDash Mobility Services requires a high-throughput food ordering and fulfilment system to connect restaurant partners,
+                  hungry consumers, and delivery fleets. CraveDash needs to allow users to explore dynamic digital menus, place multi-item orders, and complete digital payment transactions,
+                  while allowing restaurants to update item availability in real time. The company mandates microservices that isolate restaurant menu management, order workflow
+                  orchestration, payment processing, and delivery fulfillment. This system must support secure access, scalable service discovery, and resilient communication between the
+                  order, restaurant, and payment domain services.
+                </p>
+
+                <p>
+                  <strong>Sample Microservices</strong>
+                </p>
+
+                <ul>
+                  <li>Restaurant Service</li>
+                  <li>Order Service</li>
+                  <li>Payment Service (API Gateway, Auth, Eureka)</li>
+                </ul>
+
+                <p class="tasks-title"><strong>Tasks to be Done</strong></p>
+                <ul class="tasks-list">
+                  <li>Secure APIs using JWT Authentication</li>
+                  <li>Use API Gateway for centralized access</li>
+                  <li>Enable Eureka Discovery for services</li>
+                  <li>Apply Load Balancing for order requests</li>
+                  <li>Implement Inter-service Communication (Order &lt;-&gt; Restaurant &lt;-&gt; Payment)</li>
+                  <li>Develop APIs for menu, order, payment, and tracking</li>
+                  <li>Write Unit + Integration Tests</li>
+                  <li>Deploy services</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="note">Note: The team leader can apply to change the review.</div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
